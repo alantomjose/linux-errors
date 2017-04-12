@@ -19,15 +19,18 @@ Add necessary files in the folder 'solution' regarding the solution.
 ## Example directory tree
 linux-errors  
 |  
-|--Issue:SomeIssue  
-   |  
-   |--README  
-   |--IssueDetails.txt  
-   |--Solution  
-      |  
-      |--README  
-      |--SolutionDetails.txt  
-      |--FilesRequired  
-         |  
-         |--File1  
-         |--File2  
++--Issue:SomeIssue  
+|  |  
+|  |--README  
+|  |--IssueDetails.txt  
+|  +--Solution  
+|     |  
+|     |--README  
+|     |--SolutionDetails.txt  
+|     +--FilesRequired  
+|        |  
+|        |--File1  
+|        |--File2  
++--Issue:SomeOtherIssue
+|  |
+*and so on*
