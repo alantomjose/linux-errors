@@ -21,13 +21,13 @@ linux-errors
 |
 |--Issue:SomeIssue
    |
-	    |--README
-			   |--IssueDetails.txt
-				    |--Solution
-						      |
-										  |--README
-												  |--SolutionDetails.txt
-														  |--FilesRequired
-																     |
-																		 		 |--File1
-																				 		 |--File2
+   |--README
+   |--IssueDetails.txt
+   |--Solution
+      |
+      |--README
+      |--SolutionDetails.txt
+      |--FilesRequired
+         |
+         |--File1
+         |--File2
