@@ -20,17 +20,17 @@ Add necessary files in the folder 'solution' regarding the solution.
 linux-errors  
 |  
 +--Issue:SomeIssue  
-|  |  
-|  |--README  
-|  |--IssueDetails.txt  
-|  +--Solution  
-|     |  
-|     |--README  
-|     |--SolutionDetails.txt  
-|     +--FilesRequired  
-|        |  
-|        |--File1  
-|        |--File2  
+|&nbsp;&nbsp;|  
+|&nbsp;&nbsp;|--README  
+|&nbsp;&nbsp;|--IssueDetails.txt  
+|&nbsp;&nbsp;+--Solution  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--README  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--SolutionDetails.txt  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+--FilesRequired  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--File1  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--File2  
 +--Issue:SomeOtherIssue
-|  |
+|&nbsp;&nbsp;|
 *and so on*
