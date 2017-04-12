@@ -9,13 +9,13 @@ If you have any suggestions, doubts or anything regarding this repo, feel free
 to mail me at *nikhilmtomy@gmail.com* with the **subject** linuxerrors.
 ## Guideline to pull requests
 Please create a folder in the name of the error or issue and create a pull
-request
-Please provide a *README* in that folder for details
-Please add necessary logs or other information regarding the issue or error
+request.  
+Please provide a *README* in that folder for details.  
+Please add necessary logs or other information regarding the issue or error.  
 ### For solutions
-Create a folder inside the respective issue named 'solution'.
-Add a *README* in the 'solution' folder and provide necessary information.
-Add necessary files in the folder 'solution' regarding the solution.
+Create a folder inside the respective issue named 'solution'.  
+Add a *README* in the 'solution' folder and provide necessary information.  
+Add necessary files in the folder 'solution' regarding the solution.  
 ## Example directory tree
 linux-errors
 |
