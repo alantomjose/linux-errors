@@ -17,20 +17,22 @@ Create a folder inside the respective issue named 'solution'.
 Add a *README* in the 'solution' folder and provide necessary information.  
 Add necessary files in the folder 'solution' regarding the solution.  
 ## Example directory tree
+...
 linux-errors  
 |  
 +--Issue:SomeIssue  
-|&nbsp;&nbsp;|  
-|&nbsp;&nbsp;|--README  
-|&nbsp;&nbsp;|--IssueDetails.txt  
-|&nbsp;&nbsp;+--Solution  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--README  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--SolutionDetails.txt  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+--FilesRequired  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--File1  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--File2  
-+--Issue:SomeOtherIssue
-|&nbsp;&nbsp;|
-*and so on*
+|  |  
+|  |--README  
+|  |--IssueDetails.txt  
+|  +--Solution  
+|     |  
+|     |--README  
+|     |--SolutionDetails.txt  
+|     +--FilesRequired  
+|        |  
+|        |--File1  
+|        |--File2  
++--Issue:SomeOtherIssue  
+|  |  
+*and so on*  
+...
