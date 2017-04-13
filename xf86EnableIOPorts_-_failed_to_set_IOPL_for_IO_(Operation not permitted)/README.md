@@ -13,6 +13,6 @@ Not only that this didn't work, I also got the error displayed in
 See
 [screen.txt](https://github.com/NikhilMTomy/manjaro-errors/blob/master/xf86EnableIOPorts_-_failed_to_set_IOPL_for_IO_(Operation%20not%20permitted)/screen.txt)
 ## Status
-Not solved
+Not solved  
 Asked at
 [Reddit](https://www.reddit.com/r/ManjaroLinux/comments/64yhaz/xorg_error_xf86enableioports_failed_to_set_iopl/)
