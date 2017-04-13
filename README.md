@@ -17,7 +17,7 @@ Create a folder inside the respective issue named 'solution'.
 Add a *README* in the 'solution' folder and provide necessary information.  
 Add necessary files in the folder 'solution' regarding the solution.  
 ## Example directory tree
-...
+```
 linux-errors  
 |  
 +--Issue:SomeIssue  
@@ -35,4 +35,4 @@ linux-errors
 +--Issue:SomeOtherIssue  
 |  |  
 *and so on*  
-...
+```
