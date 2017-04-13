@@ -8,10 +8,10 @@ you have found out problems (with or without solutions) that needs attention.
 If you have any suggestions, doubts or anything regarding this repo, feel free
 to mail me at *nikhilmtomy@gmail.com* with the **subject** linuxerrors.
 ## Guideline to pull requests
-Please create a folder in the name of the error or issue and create a pull
+Create a folder in the name of the error or issue and create a pull
 request.  
-Please provide a *README* in that folder for details.  
-Please add necessary logs or other information regarding the issue or error.  
+Provide a *README* in that folder for details.  
+Add necessary logs or other information regarding the issue or error.  
 ### For solutions
 Create a folder inside the respective issue named 'solution'.  
 Add a *README* in the 'solution' folder and provide necessary information.  
