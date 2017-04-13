@@ -16,7 +16,8 @@ Markers: (--) probed, (**) from config file, (==) default setting,
 (==) Using config directory: "/etc/X11/xorg.conf.d"
 (==) Using system config directory "/usr/share/X11/xorg.conf.d"
 xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
-Wednesday 12 April 2017 05:42:34  IST - ERROR: Could not translate string to key symbol: "tab"
+Wednesday 12 April 2017 05:42:34  IST - 
+ERROR: Could not translate string to key symbol: "tab"
 [libi3] ../../i3-4.13/libi3/font.c Using Pango font System San Francisco,FontAwesome, size 10
 [libi3] ../../i3-4.13/libi3/font.c X11 root window dictates 96.252632 DPI
 feh WARNING: /home/nikhil/pictures/wallpapers/wallpaper.jpg does not exist - skipping
