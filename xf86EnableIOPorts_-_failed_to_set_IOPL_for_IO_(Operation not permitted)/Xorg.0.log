@@ -1,0 +1,334 @@
+[   430.126] 
+X.Org X Server 1.19.2
+Release Date: 2017-03-02
+[   430.126] X Protocol Version 11, Revision 0
+[   430.126] Build Operating System: Linux 4.9.13-1-lts x86_64 
+[   430.126] Current Operating System: Linux nikhil-pc 4.9.13-1-MANJARO #1 SMP PREEMPT Sun Feb 26 13:27:28 UTC 2017 x86_64
+[   430.126] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.9-x86_64 root=UUID=070e72aa-cfe7-43d6-a5bf-6ebca4a547fb rw quiet resume=UUID=a350e179-f664-44dd-a60f-3fad6bb5a814
+[   430.127] Build Date: 03 March 2017  06:00:24PM
+[   430.127]  
+[   430.127] Current version of pixman: 0.34.0
+[   430.127] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   430.127] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   430.127] (==) Log file: "/var/log/Xorg.0.log", Time: Sun Apr  9 17:46:02 2017
+[   430.127] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[   430.127] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   430.127] (==) No Layout section.  Using the first Screen section.
+[   430.127] (==) No screen section available. Using defaults.
+[   430.127] (**) |-->Screen "Default Screen Section" (0)
+[   430.127] (**) |   |-->Monitor "<default monitor>"
+[   430.127] (==) No device specified for screen "Default Screen Section".
+	Using the first device section listed.
+[   430.127] (**) |   |-->Device "Device0"
+[   430.127] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[   430.127] (==) Automatically adding devices
+[   430.127] (==) Automatically enabling devices
+[   430.127] (==) Automatically adding GPU devices
+[   430.127] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   430.127] (WW) The directory "/usr/share/fonts/Type1/" does not exist.
+[   430.127] 	Entry deleted from font path.
+[   430.127] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/100dpi/".
+[   430.127] 	Entry deleted from font path.
+[   430.127] 	(Run 'mkfontdir' on "/usr/share/fonts/100dpi/").
+[   430.127] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/75dpi/".
+[   430.127] 	Entry deleted from font path.
+[   430.127] 	(Run 'mkfontdir' on "/usr/share/fonts/75dpi/").
+[   430.127] (==) FontPath set to:
+	/usr/share/fonts/misc/,
+	/usr/share/fonts/TTF/,
+	/usr/share/fonts/OTF/
+[   430.127] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   430.127] (**) Extension "Composite" is enabled
+[   430.127] (**) Extension "RENDER" is enabled
+[   430.128] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[   430.128] (II) Loader magic: 0x822d60
+[   430.128] (II) Module ABI versions:
+[   430.128] 	X.Org ANSI C Emulation: 0.4
+[   430.128] 	X.Org Video Driver: 23.0
+[   430.128] 	X.Org XInput driver : 24.1
+[   430.128] 	X.Org Server Extension : 10.0
+[   430.129] (++) using VT number 7
+
+[   430.129] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[   430.129] (II) xfree86: Adding drm device (/dev/dri/card0)
+[   430.140] (--) PCI:*(0:0:2:0) 8086:0102:1043:844d rev 9, Mem @ 0xf7800000/4194304, 0xe0000000/268435456, I/O @ 0x0000f000/64, BIOS @ 0x????????/131072
+[   430.140] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[   430.140] (II) LoadModule: "glx"
+[   430.140] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   430.142] (II) Module glx: vendor="X.Org Foundation"
+[   430.142] 	compiled for 1.19.2, module version = 1.0.0
+[   430.142] 	ABI class: X.Org Server Extension, version 10.0
+[   430.142] (II) LoadModule: "intel"
+[   430.142] (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+[   430.142] (II) Module intel: vendor="X.Org Foundation"
+[   430.142] 	compiled for 1.19.1, module version = 2.99.917
+[   430.142] 	Module class: X.Org Video Driver
+[   430.142] 	ABI class: X.Org Video Driver, version 23.0
+[   430.142] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
+	i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G,
+	915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM,
+	Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33,
+	GM45, 4 Series, G45/G43, Q45/Q43, G41, B43
+[   430.142] (II) intel: Driver for Intel(R) HD Graphics
+[   430.142] (II) intel: Driver for Intel(R) Iris(TM) Graphics
+[   430.142] (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics
+[   430.142] (II) intel(0): Using Kernel Mode Setting driver: i915, version 1.6.0 20160919
+[   430.142] (II) intel(0): SNA compiled from 2.99.917-760-ge9cd8c21
+[   430.143] (--) intel(0): Integrated Graphics Chipset: Intel(R) HD Graphics 2000
+[   430.143] (--) intel(0): CPU: x86-64, sse2, sse3, ssse3, sse4.1, sse4.2, avx; using a maximum of 2 threads
+[   430.143] (II) intel(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[   430.143] (==) intel(0): Depth 24, (--) framebuffer bpp 32
+[   430.143] (==) intel(0): RGB weight 888
+[   430.143] (==) intel(0): Default visual is TrueColor
+[   430.143] (**) intel(0): Option "AccelMethod" "sna"
+[   430.143] (**) intel(0): Option "DRI" "3"
+[   430.145] (II) intel(0): Output VGA1 has no monitor section
+[   430.145] (II) intel(0): Enabled output VGA1
+[   430.145] (--) intel(0): Using a maximum size of 256x256 for hardware cursors
+[   430.146] (II) intel(0): Output VIRTUAL1 has no monitor section
+[   430.146] (II) intel(0): Enabled output VIRTUAL1
+[   430.146] (--) intel(0): Output VGA1 using initial mode 1920x1080 on pipe 0
+[   430.146] (==) intel(0): TearFree disabled
+[   430.146] (==) intel(0): Using gamma correction (1.0, 1.0, 1.0)
+[   430.146] (==) intel(0): DPI set to (96, 96)
+[   430.146] (II) Loading sub module "dri3"
+[   430.146] (II) LoadModule: "dri3"
+[   430.146] (II) Module "dri3" already built-in
+[   430.146] (II) Loading sub module "dri2"
+[   430.146] (II) LoadModule: "dri2"
+[   430.146] (II) Module "dri2" already built-in
+[   430.146] (II) Loading sub module "present"
+[   430.146] (II) LoadModule: "present"
+[   430.146] (II) Module "present" already built-in
+[   430.146] (==) Depth 24 pixmap format is 32 bpp
+[   430.146] (II) intel(0): SNA initialized with Sandybridge (gen6, gt1) backend
+[   430.146] (==) intel(0): Backing store enabled
+[   430.146] (==) intel(0): Silken mouse enabled
+[   430.146] (II) intel(0): HW Cursor enabled
+[   430.146] (II) intel(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[   430.146] (==) intel(0): DPMS enabled
+[   430.146] (==) intel(0): Display hotplug detection enabled
+[   430.146] (II) intel(0): [DRI2] Setup complete
+[   430.146] (II) intel(0): [DRI2]   DRI driver: i965
+[   430.146] (II) intel(0): [DRI2]   VDPAU driver: va_gl
+[   430.146] (II) intel(0): direct rendering: DRI2 DRI3 enabled
+[   430.147] (II) intel(0): hardware support for Present enabled
+[   430.147] (WW) intel(0): Option "DRI3" is not used
+[   430.147] (--) RandR disabled
+[   430.166] (II) AIGLX: enabled GLX_MESA_copy_sub_buffer
+[   430.166] (II) AIGLX: enabled GLX_ARB_create_context
+[   430.166] (II) AIGLX: enabled GLX_ARB_create_context_profile
+[   430.166] (II) AIGLX: enabled GLX_EXT_create_context_es{,2}_profile
+[   430.166] (II) AIGLX: enabled GLX_INTEL_swap_event
+[   430.166] (II) AIGLX: enabled GLX_SGI_swap_control
+[   430.166] (II) AIGLX: enabled GLX_EXT_framebuffer_sRGB
+[   430.166] (II) AIGLX: enabled GLX_ARB_fbconfig_float
+[   430.166] (II) AIGLX: enabled GLX_EXT_fbconfig_packed_float
+[   430.166] (II) AIGLX: GLX_EXT_texture_from_pixmap backed by buffer objects
+[   430.166] (II) AIGLX: enabled GLX_ARB_create_context_robustness
+[   430.167] (II) AIGLX: Loaded and initialized i965
+[   430.167] (II) GLX: Initialized DRI2 GL provider for screen 0
+[   430.172] (II) intel(0): switch to mode 1920x1080@60.0 on VGA1 using pipe 0, position (0, 0), rotation normal, reflection none
+[   430.172] (II) intel(0): Setting screen physical size to 508 x 285
+[   430.211] (II) config/udev: Adding input device Power Button (/dev/input/event4)
+[   430.211] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[   430.211] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   430.211] (**) Power Button: Applying InputClass "system-keyboard"
+[   430.211] (**) Power Button: Applying InputClass "Keyboard Defaults"
+[   430.211] (II) LoadModule: "libinput"
+[   430.212] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[   430.213] (II) Module libinput: vendor="X.Org Foundation"
+[   430.213] 	compiled for 1.19.1, module version = 0.24.0
+[   430.213] 	Module class: X.Org XInput Driver
+[   430.213] 	ABI class: X.Org XInput driver, version 24.1
+[   430.213] (II) Using input driver 'libinput' for 'Power Button'
+[   430.213] (**) Power Button: always reports core events
+[   430.213] (**) Option "Device" "/dev/input/event4"
+[   430.213] (**) Option "_source" "server/udev"
+[   430.214] (II) input device 'Power Button', /dev/input/event4 is tagged by udev as: Keyboard
+[   430.214] (II) input device 'Power Button', /dev/input/event4 is a keyboard
+[   430.243] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input6/event4"
+[   430.243] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[   430.243] (**) Option "xkb_model" "pc105"
+[   430.243] (**) Option "xkb_layout" "us"
+[   430.243] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[   430.272] (II) input device 'Power Button', /dev/input/event4 is tagged by udev as: Keyboard
+[   430.273] (II) input device 'Power Button', /dev/input/event4 is a keyboard
+[   430.273] (II) config/udev: Adding input device Video Bus (/dev/input/event11)
+[   430.273] (**) Video Bus: Applying InputClass "evdev keyboard catchall"
+[   430.273] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[   430.273] (**) Video Bus: Applying InputClass "system-keyboard"
+[   430.273] (**) Video Bus: Applying InputClass "Keyboard Defaults"
+[   430.273] (II) Using input driver 'libinput' for 'Video Bus'
+[   430.273] (**) Video Bus: always reports core events
+[   430.273] (**) Option "Device" "/dev/input/event11"
+[   430.273] (**) Option "_source" "server/udev"
+[   430.273] (II) input device 'Video Bus', /dev/input/event11 is tagged by udev as: Keyboard
+[   430.273] (II) input device 'Video Bus', /dev/input/event11 is a keyboard
+[   430.300] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input14/event11"
+[   430.300] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[   430.300] (**) Option "xkb_model" "pc105"
+[   430.300] (**) Option "xkb_layout" "us"
+[   430.300] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[   430.300] (II) input device 'Video Bus', /dev/input/event11 is tagged by udev as: Keyboard
+[   430.300] (II) input device 'Video Bus', /dev/input/event11 is a keyboard
+[   430.300] (II) config/udev: Adding input device Power Button (/dev/input/event3)
+[   430.301] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[   430.301] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   430.301] (**) Power Button: Applying InputClass "system-keyboard"
+[   430.301] (**) Power Button: Applying InputClass "Keyboard Defaults"
+[   430.301] (II) Using input driver 'libinput' for 'Power Button'
+[   430.301] (**) Power Button: always reports core events
+[   430.301] (**) Option "Device" "/dev/input/event3"
+[   430.301] (**) Option "_source" "server/udev"
+[   430.301] (II) input device 'Power Button', /dev/input/event3 is tagged by udev as: Keyboard
+[   430.301] (II) input device 'Power Button', /dev/input/event3 is a keyboard
+[   430.320] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input5/event3"
+[   430.320] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[   430.320] (**) Option "xkb_model" "pc105"
+[   430.320] (**) Option "xkb_layout" "us"
+[   430.320] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[   430.320] (II) input device 'Power Button', /dev/input/event3 is tagged by udev as: Keyboard
+[   430.320] (II) input device 'Power Button', /dev/input/event3 is a keyboard
+[   430.321] (II) config/udev: Adding input device HDA Intel PCH Line Out (/dev/input/event8)
+[   430.321] (II) No input driver specified, ignoring this device.
+[   430.321] (II) This device may have been added with another device file.
+[   430.321] (II) config/udev: Adding input device HDA Intel PCH Front Headphone (/dev/input/event9)
+[   430.321] (II) No input driver specified, ignoring this device.
+[   430.321] (II) This device may have been added with another device file.
+[   430.322] (II) config/udev: Adding input device HDA Intel PCH Front Mic (/dev/input/event5)
+[   430.322] (II) No input driver specified, ignoring this device.
+[   430.322] (II) This device may have been added with another device file.
+[   430.322] (II) config/udev: Adding input device HDA Intel PCH Rear Mic (/dev/input/event6)
+[   430.322] (II) No input driver specified, ignoring this device.
+[   430.322] (II) This device may have been added with another device file.
+[   430.322] (II) config/udev: Adding input device HDA Intel PCH Line (/dev/input/event7)
+[   430.322] (II) No input driver specified, ignoring this device.
+[   430.322] (II) This device may have been added with another device file.
+[   430.323] (II) config/udev: Adding input device HID 04f3:0103 (/dev/input/event0)
+[   430.323] (**) HID 04f3:0103: Applying InputClass "evdev keyboard catchall"
+[   430.323] (**) HID 04f3:0103: Applying InputClass "libinput keyboard catchall"
+[   430.323] (**) HID 04f3:0103: Applying InputClass "system-keyboard"
+[   430.323] (**) HID 04f3:0103: Applying InputClass "Keyboard Defaults"
+[   430.323] (II) Using input driver 'libinput' for 'HID 04f3:0103'
+[   430.323] (**) HID 04f3:0103: always reports core events
+[   430.323] (**) Option "Device" "/dev/input/event0"
+[   430.323] (**) Option "_source" "server/udev"
+[   430.323] (II) input device 'HID 04f3:0103', /dev/input/event0 is tagged by udev as: Keyboard
+[   430.324] (II) input device 'HID 04f3:0103', /dev/input/event0 is a keyboard
+[   430.380] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.1/2-1.1:1.0/0003:04F3:0103.0001/input/input2/event0"
+[   430.380] (II) XINPUT: Adding extended input device "HID 04f3:0103" (type: KEYBOARD, id 9)
+[   430.380] (**) Option "xkb_model" "pc105"
+[   430.380] (**) Option "xkb_layout" "us"
+[   430.380] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[   430.380] (II) input device 'HID 04f3:0103', /dev/input/event0 is tagged by udev as: Keyboard
+[   430.380] (II) input device 'HID 04f3:0103', /dev/input/event0 is a keyboard
+[   430.381] (II) config/udev: Adding input device HID 04f3:0103 (/dev/input/event1)
+[   430.381] (**) HID 04f3:0103: Applying InputClass "evdev keyboard catchall"
+[   430.381] (**) HID 04f3:0103: Applying InputClass "libinput keyboard catchall"
+[   430.381] (**) HID 04f3:0103: Applying InputClass "system-keyboard"
+[   430.381] (**) HID 04f3:0103: Applying InputClass "Keyboard Defaults"
+[   430.381] (II) Using input driver 'libinput' for 'HID 04f3:0103'
+[   430.381] (**) HID 04f3:0103: always reports core events
+[   430.381] (**) Option "Device" "/dev/input/event1"
+[   430.381] (**) Option "_source" "server/udev"
+[   430.382] (II) input device 'HID 04f3:0103', /dev/input/event1 is tagged by udev as: Keyboard
+[   430.382] (II) input device 'HID 04f3:0103', /dev/input/event1 is a keyboard
+[   430.420] (II) libinput: HID 04f3:0103: needs a virtual subdevice
+[   430.420] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.1/2-1.1:1.1/0003:04F3:0103.0002/input/input3/event1"
+[   430.420] (II) XINPUT: Adding extended input device "HID 04f3:0103" (type: MOUSE, id 10)
+[   430.420] (**) Option "AccelerationScheme" "none"
+[   430.420] (**) HID 04f3:0103: (accel) selected scheme none/0
+[   430.420] (**) HID 04f3:0103: (accel) acceleration factor: 2.000
+[   430.420] (**) HID 04f3:0103: (accel) acceleration threshold: 4
+[   430.420] (II) input device 'HID 04f3:0103', /dev/input/event1 is tagged by udev as: Keyboard
+[   430.420] (II) input device 'HID 04f3:0103', /dev/input/event1 is a keyboard
+[   430.421] (II) config/udev: Adding input device Genius Optical Mouse (/dev/input/event2)
+[   430.421] (**) Genius Optical Mouse: Applying InputClass "evdev pointer catchall"
+[   430.421] (**) Genius Optical Mouse: Applying InputClass "libinput pointer catchall"
+[   430.421] (II) Using input driver 'libinput' for 'Genius Optical Mouse'
+[   430.421] (**) Genius Optical Mouse: always reports core events
+[   430.421] (**) Option "Device" "/dev/input/event2"
+[   430.421] (**) Option "_source" "server/udev"
+[   430.477] (II) input device 'Genius Optical Mouse', /dev/input/event2 is tagged by udev as: Mouse
+[   430.477] (II) input device 'Genius Optical Mouse', /dev/input/event2 is a pointer caps
+[   430.513] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.2/2-1.2:1.0/0003:0458:003A.0003/input/input4/event2"
+[   430.513] (II) XINPUT: Adding extended input device "Genius Optical Mouse" (type: MOUSE, id 11)
+[   430.513] (**) Option "AccelerationScheme" "none"
+[   430.513] (**) Genius Optical Mouse: (accel) selected scheme none/0
+[   430.513] (**) Genius Optical Mouse: (accel) acceleration factor: 2.000
+[   430.513] (**) Genius Optical Mouse: (accel) acceleration threshold: 4
+[   430.570] (II) input device 'Genius Optical Mouse', /dev/input/event2 is tagged by udev as: Mouse
+[   430.570] (II) input device 'Genius Optical Mouse', /dev/input/event2 is a pointer caps
+[   430.570] (II) config/udev: Adding input device Genius Optical Mouse (/dev/input/mouse0)
+[   430.570] (II) No input driver specified, ignoring this device.
+[   430.570] (II) This device may have been added with another device file.
+[   430.571] (II) config/udev: Adding input device Eee PC WMI hotkeys (/dev/input/event12)
+[   430.571] (**) Eee PC WMI hotkeys: Applying InputClass "evdev keyboard catchall"
+[   430.571] (**) Eee PC WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+[   430.571] (**) Eee PC WMI hotkeys: Applying InputClass "system-keyboard"
+[   430.571] (**) Eee PC WMI hotkeys: Applying InputClass "Keyboard Defaults"
+[   430.571] (II) Using input driver 'libinput' for 'Eee PC WMI hotkeys'
+[   430.571] (**) Eee PC WMI hotkeys: always reports core events
+[   430.571] (**) Option "Device" "/dev/input/event12"
+[   430.571] (**) Option "_source" "server/udev"
+[   430.571] (II) input device 'Eee PC WMI hotkeys', /dev/input/event12 is tagged by udev as: Keyboard
+[   430.571] (II) input device 'Eee PC WMI hotkeys', /dev/input/event12 is a keyboard
+[   430.586] (**) Option "config_info" "udev:/sys/devices/platform/eeepc-wmi/input/input15/event12"
+[   430.586] (II) XINPUT: Adding extended input device "Eee PC WMI hotkeys" (type: KEYBOARD, id 12)
+[   430.586] (**) Option "xkb_model" "pc105"
+[   430.586] (**) Option "xkb_layout" "us"
+[   430.586] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[   430.587] (II) input device 'Eee PC WMI hotkeys', /dev/input/event12 is tagged by udev as: Keyboard
+[   430.587] (II) input device 'Eee PC WMI hotkeys', /dev/input/event12 is a keyboard
+[   430.587] (II) config/udev: Adding input device PC Speaker (/dev/input/event10)
+[   430.587] (II) No input driver specified, ignoring this device.
+[   430.587] (II) This device may have been added with another device file.
+[   430.606] (**) HID 04f3:0103: Applying InputClass "evdev keyboard catchall"
+[   430.606] (**) HID 04f3:0103: Applying InputClass "libinput keyboard catchall"
+[   430.606] (**) HID 04f3:0103: Applying InputClass "system-keyboard"
+[   430.606] (**) HID 04f3:0103: Applying InputClass "Keyboard Defaults"
+[   430.606] (II) Using input driver 'libinput' for 'HID 04f3:0103'
+[   430.606] (**) HID 04f3:0103: always reports core events
+[   430.606] (**) Option "Device" "/dev/input/event1"
+[   430.606] (**) Option "_source" "_driver/libinput"
+[   430.606] (II) libinput: HID 04f3:0103: is a virtual subdevice
+[   430.606] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.1/2-1.1:1.1/0003:04F3:0103.0002/input/input3/event1"
+[   430.606] (II) XINPUT: Adding extended input device "HID 04f3:0103" (type: KEYBOARD, id 13)
+[   430.606] (**) Option "xkb_model" "pc105"
+[   430.606] (**) Option "xkb_layout" "us"
+[   430.606] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[   432.160] (II) intel(0): EDID vendor "ACR", prod id 793
+[   432.160] (II) intel(0): Using EDID range info for horizontal sync
+[   432.160] (II) intel(0): Using EDID range info for vertical refresh
+[   432.160] (II) intel(0): Printing DDC gathered Modelines:
+[   432.160] (II) intel(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[   432.160] (II) intel(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[   432.160] (II) intel(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[   432.160] (II) intel(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[   432.160] (II) intel(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[   432.160] (II) intel(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[   432.160] (II) intel(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[   432.160] (II) intel(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[   432.160] (II) intel(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[   432.160] (II) intel(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[   432.160] (II) intel(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz e)
+[   432.160] (II) intel(0): Modeline "1280x800"x0.0   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[   432.160] (II) intel(0): Modeline "1440x900"x0.0  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+[   432.160] (II) intel(0): Modeline "1680x1050"x0.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+[   432.160] (II) intel(0): Modeline "1920x1080"x60.0  172.80  1920 2040 2248 2576  1080 1081 1084 1118 -hsync +vsync (67.1 kHz e)
+[   436.630] (II) UnloadModule: "libinput"
+[   436.630] (II) UnloadModule: "libinput"
+[   436.630] (II) UnloadModule: "libinput"
+[   436.630] (II) UnloadModule: "libinput"
+[   436.630] (II) UnloadModule: "libinput"
+[   436.630] (II) UnloadModule: "libinput"
+[   436.630] (II) UnloadModule: "libinput"
+[   436.630] (II) UnloadModule: "libinput"
+[   436.718] (II) Server terminated successfully (0). Closing log file.
